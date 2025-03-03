@@ -1,0 +1,13 @@
+/node_modules
+package-lock.json
+
+# ignore build artifacts and cache
+
+dist/
+.parcel-cache/
+
+
+# ignore database and lock files
+*.mdb
+*.lock
+*.txt
